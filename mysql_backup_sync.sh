@@ -3,7 +3,7 @@
 HOST='IP'
 USER='mysqlftp'
 PASSWD='password'
-ldir='/path/to/mysql_backup/backup/'
+ldir='/path/to/mysql_backup/'
 
 cd $ldir
 day=$(date +"%d")
