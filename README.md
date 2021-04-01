@@ -4,6 +4,7 @@
  * Make sure that your script has the appropriate executable permission ```/path/to/mysql_backup.sh```
  * You can change the ```KEEP_BACKUPS_FOR``` as you wish .
  * Add a cron job For example, daily db backup @ 4:15 AM ```15 4 * * * /path/to/mysql_backup.sh > /dev/null 2>&1```
+ * Also you can use [mysql_backup_sync.sh](https://github.com/yigitgokcu/mysql-backup/blob/main/mysql_backup_sync.sh)script with a cronjob for send backups to remote destination via FTP.
 ```
 #!/bin/bash
 #==============================================================================
