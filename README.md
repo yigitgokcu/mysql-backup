@@ -1,6 +1,6 @@
 #### A small bash script for automating the daily mysql backups  
 
- * Create a directory for store backups and For example, ```/path/to/mysql_backup/``` 
+ * Create a directory for store backups. For example, ```/path/to/mysql_backup/``` 
  * Make sure that your script has the appropriate executable permission ```/path/to/mysql_backup.sh```
  * You can change the ```KEEP_BACKUPS_FOR``` as you wish .
  * Add a cron job For example, daily db backup @ 4:15 AM ```15 4 * * * /path/to/mysql_backup.sh > /dev/null 2>&1```
